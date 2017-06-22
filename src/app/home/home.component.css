@@ -1,0 +1,59 @@
+.main-container {
+  width: 100%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container>div {
+  margin-top: 36px;
+}
+
+.right-to-left {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.left-to-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 6px 36px;
+}
+
+.title h3 {
+  width: 280px;
+  text-align: center;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.food-menu {
+  width: 60%;
+  min-width: 640px;
+  display: flex;
+  flex-direction: column;
+  margin:48px;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-id {
+  width: 48px;
+}
+
+.menu-price {
+  width: 86px;
+}
+
+.menu-name {
+  flex-grow: 1;
+}

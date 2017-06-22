@@ -1,0 +1,18 @@
+.outer-container, .navbar{
+  background-color: #2E3A9D;
+}
+
+.navbar{
+  width: 100%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-light .navbar-nav .active > .nav-link.active{
+  color:#fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:rgba(255, 255, 255, 0.6);
+}

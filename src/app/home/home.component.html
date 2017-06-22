@@ -1,0 +1,54 @@
+<sz-header></sz-header>
+
+<div class="main-container">
+  <div class="right-to-left">
+    <div class="title">
+      <h3>Our Unique Culinary Creations</h3>
+    </div>
+    <div class="content">
+      <h2>Fichipizza</h2>
+      <p>A unique combination of Mediterranean and Italian pizza, topped with Mascarphone, proscuitto, figs, grando panado, honey and arugula.</p>
+      <p><a href="#">More &raquo;</a></p>
+    </div>
+  </div>
+  <hr />
+
+  <div class="left-to-right">
+    <div class="title">
+      <h3>This Month's Promotions</h3>
+    </div>
+    <div class="content">
+      <h2>Weekend Grand Buffet</h2>
+      <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+      <p><a href="#">More &raquo;</a></p>
+    </div>
+  </div>
+  <hr />
+
+  <div class="right-to-left">
+    <div class="title">
+      <h3>Meet our Culinary Specialists</h3>
+    </div>
+    <div class="content">
+      <h2>Tommy McHugh</h2>
+      <h4>Executive Chef</h4>
+      <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Mediterranean-Italian experiences. </p>
+      <p><a href="#">More &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="food-menu">
+    <div class="menu-item"  *ngFor="let mItem of Menus">
+      <div class="menu-id">
+        {{mItem.MenuId}}
+      </div>
+      <div class="menu-name">
+        {{mItem.MenuName}}
+      </div>
+      <div class="menu-price">
+        {{mItem.Price}}
+      </div>
+    </div>
+  </div>
+
+</div>
